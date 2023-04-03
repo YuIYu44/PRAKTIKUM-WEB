@@ -1,0 +1,86 @@
+<!-- bagian ini masihlah belum selesai sehingga akan dilakukan update fitur-fitur selanjutnya -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cool Coder - Ayo Wujudkan Mimpi Menjadi Seorang Machine Learning Developer</title>
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="php-in.css">
+	<style>
+		#footer {
+			position: relative; 
+			bottom:0 ;
+			width: 100%;
+			padding: 1px 0;
+			background-color: rebeccapurple;}
+	</style>
+	<script src="darkmode.js" defer></script>
+</head>
+<body >
+	<div class="content">
+	<marquee  behavior="alternate" style="font-style: oblique;font-size: 2vw; color: whitesmoke; background-color:mediumpurple;"> DISKON 50% AKHIR TAHUN UNTUK PAKET PREMIUM 6 BULAN. BERGABUNG SEGERA.</marquee>
+	<img src="https://lh3.googleusercontent.com/d/1AdbvyM-LgWHqWYXFO0loCYMCeBIlmLVF" style="max-height: 14%; max-width: 14%;margin-bottom: -4%;margin-top: -2%;"/>
+  	<button id="toggle" class="button" style="max-width:2vw;max-height: 5vh; border:none;background-color: transparent;margin-left:78vw ;"><img src="lamp.png" style="max-width:5vw;max-height: 5vh;/">
+    </button>
+	<div class="nav">
+		<div class="left-links">
+			<div class="dropdown" style="display:inline-block;">
+    			<button class="dropbtn" style="background-color:purple;color: black;">=</button>
+    			<div class="dropdown-content" style="background-color:transparent;">
+     				<a href="program.html">&nbsp Program &nbsp</a>
+     		 		<a href="Jalur.html">&nbsp Jalur Belajar &nbsp</a>
+      				<a href="Costumer Care.html">&nbsp Costumer Care &nbsp</a>
+    			</div>
+    		</div>
+    	</div>
+		<div class="right-links">
+			<a class="links" href="index.html"style="font-size:1.4vw;">&nbsp Home &nbsp</a>
+			<a class="links" href="aboutme.html"style="font-size:1.4vw;">&nbsp Tentang Saya &nbsp</a>
+		</div>
+	</div>
+	<p>&nbsp</p>
+	<main id="dark">
+        <h2 class="text" align="center">DAFTAR</h2>
+        <div class="inputan">
+            <form action="view.php" method="POST" >
+                <label for="Username"> Username </label>
+                    <input required placeholder="Username" id="nama" name="nama" type="text" autocomplete='nama'
+                    />
+                <br>
+        
+                <label for="BANK"> BANK </label>
+                <select name="bank" id="bank" required >
+                    <option value="BRI">BRI</option>
+                    <option value="BTN">BTN</option>
+                    <option value="MANDIRI">MANDIRI</option>
+                    <option value="BNI">BNI</option>
+                </select>
+                <br>
+                <label for="PAKET"> PAKET </label>
+                <select name="paket" id="paket" required >
+                    <option value="3 BULAN">PREMIUM 3 BULAN</option>
+                    <option value="6 BULAN">PREMIUM 6 BULAN</option>
+                </select>
+                <br>
+                <label for="email"> Email </label>
+               	 <input required placeholder="Email" id="email" name="email"  type="email" autocomplete='email'
+                />
+                <br>
+        
+                <label for="nomor"> Nomor Telepon </label>
+               	 <input required placeholder="08XXXXXXXXX" id="no" name="no" type="number" autocomplete='no'
+                />
+                <br>
+                <input type="submit" id="submit" name="submit" value="PESAN">
+            </form>
+        </div>
+            
+    </main>
+    </div>
+	<p>&nbsp</p>
+	<div class="footer">
+  		<p><b>© Ayu Lestari</b></p>
+  		<p ><a href="mailto:ayukdds@gmail.com" style="color: white;">yui@example.com</a></p>
+	</div>
+</body>
+</html>
