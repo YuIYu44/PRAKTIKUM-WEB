@@ -1,6 +1,12 @@
-body{
-		background-color: whitesmoke;
-		}
+body {
+	background-color: var(--bg);
+	color:  var(--text);
+   --text: #000000;
+   --bg: #ffffff;
+   padding: 0;
+   margin: 0;
+}
+
 #header1{
 		color: lightskyblue;
 		font-family: "Lucida Handwriting",cursive;
@@ -13,9 +19,13 @@ body{
 		background-color: lavender;
 		overflow: auto;
 		height: auto;
-		}*/
+		}
 .content{
-		padding-top:10px;
+		min-height: 90vh;
+		display: flex;
+	   flex-direction: column;
+	   align-items: center;
+	   justify-content: center;
 		margin-top:auto;}
 .left-links{
 		flex:1 1 200px;}
@@ -30,7 +40,7 @@ body{
 		display: flex;
 		align-items: center;
 		justify-content: center;}
-.dropbtn {background-color: #4CAF50;color: white;padding: 16px;font-size: 16px;border: none;}
+.dropbtn {background-color: #4CAF50;color: white;padding: 1.6vw;font-size: 16px;border: none;}
 .dropdown {
 		display: inline-block;}
 .dropdown-content {
@@ -38,9 +48,36 @@ body{
 		min-width: 160px;
 		z-index: 1;}
 .dropdown-content a {
+		font-size: 1.2vw;
 		color: black;
 		padding: 12px 16px;
 		text-decoration: none; 
 		display: block;}
 .dropdown-content a:hover {background-color: mediumslateblue;}
 .dropdown:hover .dropdown-content {display: block;}
+.footer{
+	padding: 1px;
+	background-color: rebeccapurple;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	display: block;
+	color:--text;
+	text-align:center;
+	justify-content:center;
+	font-size: 1.3vw;"
+}
+.dark {
+   --text:#ffffff;
+   --bg: #1c1b1c;
+}
+h2{
+	font-size: 3.2vw; }
+.float{
+	display: inline-block;
+}
+.stylejalur{
+	color:skyblue; 
+	font-size: 2vw; 
+	font-family: monospace;
+	text-shadow: 1px 0.4px darkblue;
